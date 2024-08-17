@@ -14,7 +14,7 @@ from flask_talisman import Talisman
 app = Flask(__name__)
 app.config.from_object(config)
 
-#Create Flask Talisman
+# Create Flask Talisman
 talisman = Talisman(app)
 
 # Import the routes After the Flask app is created
